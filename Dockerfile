@@ -15,9 +15,9 @@ WORKDIR /temp2
 RUN git clone https://github.com/florianva/testCDocker.git
 #    cd
 WORKDIR /temp
-#ENTRYPOINT ["bash"]
+ENTRYPOINT ["bash"]
 #RUN echo "export PATH=/usr/bin/"
 #RUN make --version
-#CMD ["./test.c"]
+CMD ["./test.c"]
 
 
