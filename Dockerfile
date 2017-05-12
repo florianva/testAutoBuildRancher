@@ -5,13 +5,13 @@ MAINTAINER Florian Vansteene <florian.vansteene@gmail.com>
 ENV DEBIAN_FRONTEND=noninteractive
 
 # Apt packagest
-RUN apt-get update && \
-    apt-get install -y g++ git make
-WORKDIR /temp
+#RUN apt-get update #&& \
+    #apt-get install -y g++ git make
+#WORKDIR /temp
 # GIT
-RUN git clone https://github.com/florianva/testCDocker.git
+#RUN git clone https://github.com/florianva/testCDocker.git
 #    cd
-WORKDIR /temp3
+WORKDIR /temp4
 #RUN git clone https://github.com/florianva/testCDocker.git
 #    cd
 #WORKDIR /temp2
