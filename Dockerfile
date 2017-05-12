@@ -11,8 +11,8 @@ WORKDIR /temp
 # GIT
 RUN git clone https://github.com/florianva/testCDocker.git
 #    cd
-WORKDIR /temp2
-RUN git clone https://github.com/florianva/testCDocker.git
+WORKDIR /temp3
+#RUN git clone https://github.com/florianva/testCDocker.git
 #    cd
 #WORKDIR /temp2
 #ENTRYPOINT ["bash"]
